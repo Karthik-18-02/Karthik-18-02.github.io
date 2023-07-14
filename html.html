@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fund a Cure Now!</title>
+    <style>
+        body{
+            background-color: #f4ffff;
+        }
+        .logo img{
+            height: 300px;
+            width: 300px;
+            margin-top: -5%;
+            padding-right: 84.68%;
+        }
+        ul{
+            float: left;
+            list-style: none;
+            margin-top: -9%;
+        }
+        li{
+            position: relative;
+            float: left;
+            width: 167px;
+            font-size: 25px;
+            padding-left: 325px;
+            margin-top: -0%;
+        }
+        .space{
+            margin-left: -10%;
+        }
+        #article{
+            margin-left: -15%;
+        }
+        #type{
+            margin-left: -14%;
+        }
+        #treat{
+            margin-left: -12%;
+        }
+        .list a{
+            
+            text-decoration: none;
+            color: purple;
+        }
+        .inner img{
+            height: 700Spx;
+            width: 560px;
+            position: relative;
+            padding-left: 130vh;
+            margin-top: -11.3%;
+        }
+        .innerpara{
+            position: relative;
+            margin-top: -11%;
+            font-size: 25px;
+            padding-left: 245px;
+            padding-top: -1%;
+        }
+        .innertemp img{
+            height: 185px;
+            width: 92.42%;
+            margin-top: -10% ;
+            padding-bottom: 20px;
+            margin-left: -1%;
+            padding-top: 0px;
+        }
+        .over img{
+            position: absolute;
+            height: 600px;
+            width: 1030px;
+            margin-top:-23% ;
+            margin-left: 38%;
+            rotate: -0deg;
+
+        }
+        .mainheading{
+            font-size: 28px;
+            margin-top: -27%;
+            font-family: Abril Fatface;;
+            padding-left: 245px;
+        }
+        .three{
+            font-size: 110px;
+            color: goldenrod;
+            margin-top: -4.7%;
+        }
+        .two{
+            font-size: 110px;
+            margin-top: -4.5%;
+            margin-bottom: 2.5%;
+        }
+        .cancertypes img{
+            height: 120px;
+            width: 120px;
+            margin-top: 10%;
+            rotate: 0deg;
+            padding: 25px;
+            float: inline-s;
+            position: relative;
+            transition: all .7s ease-in-out .1s;
+            animation-name: karthik;
+        }
+        .cancertypes #odd{
+            animation: karthik 2s ease-in-out 0s infinite forwards;
+        }
+        @keyframes karthik {
+            0% {
+                top: 0px;
+            }
+            50% {
+                top: 30px;
+            }
+            100% {
+                top: 0px
+            }
+        }
+        .cancertypes #even{
+            animation: karthik 3s ease-in-out 0s infinite alternate-reverse;
+        }
+        @keyframes karthik {
+            0% {
+                top: 50px;
+            }
+            50% {
+                top: 0px;
+            }
+            100% {
+                top: 50px
+            }
+        }
+        .cancertypes img:hover {
+            height: 130px;
+            width: 130px;
+            background-color: darkgray;
+            border-radius: 100%;
+        }
+        .back img{
+            float: right;
+            height: 2041px;
+            width: 7.75%;
+            margin-top: -31%;
+            margin-right: -1%;
+            z-index: 1;
+        }
+        .page2 img{
+            height: 1000px;
+            width: 93.3%;
+            margin-top: 5%;
+            z-index: 0;
+            margin-right: -5%;
+            position: relative;
+        }
+        .home{
+            margin-top: -102%;
+            margin-left: 94.5%;
+            z-index: 1;
+            position: fixed;
+            padding: 5px 5px;
+            font-size: 30px;
+            border-radius: 15px;
+            background-color: rgb(255, 255, 255);
+        }
+        .qr img{
+            height: 300px;
+            width: 300px;
+            margin-top: -40%;
+            padding-left: 300px;
+            position: absolute;
+        }
+        #note{
+            margin-top: -20%;
+            padding-left: 220px;
+            font-size: 50px;
+            color: purple;
+            position: absolute;
+        }
+        .quote{
+            margin-top: -51.5%;
+            padding-left: 220px;
+            font-size: 50px;
+            color: darkblue;
+            position: absolute;
+        }
+        div .notee{
+            font-size: 60px;
+            margin-top: 20px;
+            padding-top: 35px;
+        }
+        .aboutcancer legend{
+            font-size: 50px;
+            border: 3px solid black;
+            justify-content: center;
+            text-align: center;
+            border-radius: 8px;
+            padding: 0% 5px;
+            background-color: #bc80d3;
+        }
+        .aboutcancer p{
+            padding-left: 900px;
+            font-size: 30px;
+        }
+        .aboutcancer fieldset{
+            border: 3px solid black;
+            border-radius: 10px;
+            background-color: #f4ecf7;
+        }
+        .backen img{
+            height: 520px;
+            width: 40%;
+            opacity: 0.9;
+            margin-top: -70.6%;
+            margin-bottom: 1.7%;
+            padding-left: 20px;
+            border-radius: 20px;
+        }
+        .head2 h1{
+            font-size: 60px;
+            text-align: center;
+            background-image: url(types_bg.jpeg) ;
+            background-color: aqua;
+        }
+        .t1 h2{
+            padding-left: 200px;
+            font-size: 45px;
+        }
+        .head2 .t1{
+            border: 3px solid black;
+            width: 50%;
+            height: 400px;
+            justify-content: center;
+            font-size: 25px;
+            padding-right: -30%;
+            border-radius: 15px;
+            border-top-right-radius: 150px;
+            border-bottom-right-radius: 150px;
+            padding-left: 20px;
+            background-image: url(types_bg.jpeg) ;
+        }
+        .t1 img{
+            height: 400px;
+            width: 400px;
+            margin-left: 60%;
+            border: 0px solid black;
+            border-radius: 100%;
+            margin-top: -290px;
+            
+        }
+        .t2 h2{
+            padding-left: 200px;
+            font-size: 45px;
+        }
+        .head2 .t2{
+            float: right;
+            border: 3px solid black;
+            width: 50%;
+            height: 400px;
+            justify-content: center;
+            font-size: 25px;
+            padding-right: -30%;
+            border-radius: 15px;
+            border-top-left-radius: 150px;
+            border-bottom-left-radius: 150px;
+            padding-left: 20px;
+            background-image: url(types_bg.jpeg) ;
+        }
+        .t2 img{
+            height: 400px;
+            width: 400px;
+            margin-left: 60%;
+            border: 0px solid black;
+            border-radius: 100%;
+            margin-top: -290px;
+            
+        }
+        .t3 h2{
+            padding-left: 200px;
+            font-size: 45px;
+        }
+        .head2 .t3{
+            float: left;
+            border: 3px solid black;
+            width: 50%;
+            height: 400px;
+            justify-content: center;
+            font-size: 25px;
+            padding-right: -30%;
+            border-radius: 15px;
+            border-top-right-radius: 150px;
+            border-bottom-right-radius: 150px;
+            padding-left: 20px;
+            background-image: url(types_bg.jpeg) ;
+        }
+        .t3 img{
+            height: 400px;
+            width: 400px;
+            margin-left: 60%;
+            border: 0px solid black;
+            border-radius: 100%;
+            margin-top: -290px;
+            
+        }
+        .t4 h2{
+            padding-left: 200px;
+            font-size: 45px;
+        }
+        .head2 .t4{
+            float: right;
+            border: 3px solid black;
+            width: 50%;
+            height: 400px;
+            justify-content: center;
+            font-size: 25px;
+            padding-right: -30%;
+            border-radius: 15px;
+            border-top-left-radius: 150px;
+            border-bottom-left-radius: 150px;
+            padding-left: 20px;
+            background-image: url(types_bg.jpeg) ;
+        }
+        .t4 img{
+            height: 400px;
+            width: 400px;
+            margin-left: 60%;
+            border: 0px solid black;
+            border-radius: 100%;
+            margin-top: -290px;
+            
+        }
+        .t5 h2{
+            padding-left: 200px;
+            font-size: 45px;
+        }
+        .head2 .t5{
+            float: left;
+            border: 3px solid black;
+            width: 50%;
+            height: 400px;
+            justify-content: center;
+            font-size: 25px;
+            padding-right: -30%;
+            border-radius: 15px;
+            border-top-right-radius: 150px;
+            border-bottom-right-radius: 150px;
+            padding-left: 20px;
+            background-image: url(types_bg.jpeg) ;
+        }
+        .t5 img{
+            height: 400px;
+            width: 400px;
+            margin-left: 60%;
+            border: 0px solid black;
+            border-radius: 100%;
+            margin-top: -290px;
+            
+        }
+        .t6 h2{
+            padding-left: 200px;
+            font-size: 45px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .head2 .t6{
+            float: right;
+            border: 3px solid black;
+            width: 50%;
+            height: 400px;
+            justify-content: center;
+            font-size: 25px;
+            padding-right: -30%;
+            border-radius: 15px;
+            border-top-left-radius: 150px;
+            border-bottom-left-radius: 150px;
+            padding-left: 20px;
+            background-image: url(types_bg.jpeg) ;
+        }
+        .t6 img{
+            height: 400px;
+            width: 400px;
+            margin-left: 60%;
+            border: 0px solid black;
+            border-radius: 100%;
+            margin-top: -290px;
+            
+        }
+        .head3 h1{
+            font-size: 60px;
+            color: purple;
+            border: 3px solid black;
+            border-radius: 15px;
+        }
+        #heading31 {
+            margin-top: -2400px;
+            margin-left: 970px;
+
+        }
+
+        .onen{
+            margin-left: 1000px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="container" id="contain">
+        <div class="logo">
+            <img src="LOGO.PNG" alt="">
+        </div>
+        
+    <nav class="list">
+        <ul>
+            <li><a href="heading1">About  Cancer</a></li>
+            <li class="space" id="type"><a href="heading2">Types of Cancer</a></li>
+            <li class="space" id="treat"><a href="#">Treatments</a></li>
+            <li class="space" id="article"><a href="#">Articles</a></li>
+        </ul>
+    </nav>
+    <div class="inner">
+        <img src="child.jpg" alt="">
+    </div>
+    <div class="innertemp">
+        <img src="innertemp.png" alt="">
+    </div>
+    <div class="innerpara">
+        Cancer is a leading cause of death worldwide, accounting for nearly 10 million<br>  deaths in 2020, or nearly one in six deaths. The cancer death rate is 158.3 per <br> 100,000 men and women per year. And every year approximately <b>400 000</b> <br> children prone to cancer. In the age to play in the playground, these children <br> are suffering in the hospital beds. Let's be the hand that wake up them from <br> those beds like deathbeds, come and join the cause...
+    </div>
+    <div class="over">
+        <img src="final-gold-ribb.png" alt="">
+    </div>
+    <div class="mainheading">
+        <h1 ><b>LET'S</b></h1>
+        <h1 class="two">FIGHT IT</h1>
+        <h1 class="three"><b>TOGETHER</b></h1>
+    </div>
+    <div class="back">
+        <img src="Brown.jpeg" alt="">
+    </div>
+    <div class="cancertypes">
+        <img src="breast_p.png" alt="" class="type1" id="odd">
+        <img src="colon_p.png" alt="" class="type2" id="even">
+        <img src="esopha_p.png" alt="" class="type3" id="odd">
+        <img src="leukemia_p.png" alt="" class="type4" id="even">
+        <img src="liver_p.png" alt="" class="type5" id="odd">
+        <img src="lymphoma_p.png" alt="" class="type6" id="even">
+        <img src="pancreatic_p.png" alt="" class="type7" id="odd">
+        <img src="prostate_p.png" alt="" class="type8" id="even">
+        <img src="lungs_p.png" alt="" class="type9" id="odd">
+        <img src="ovar_p.png" alt="" class="type10" id="even">
+    </div>
+    <div class="page2">
+        <img src="pg-2.jpg" alt="">
+    </div>
+    <a href="#contain"><input type="button" value="🏠" class="home"></a>
+    <div class="qr">
+        <img src="qr.jpg" alt=""><br>
+        <div id="note"> Scan to Be the part of the <b>CAUSE</b> </div>
+    </div>
+    <div class="quote"><i> "Every day is a chance to create a memory and to love a little more." </i><br> - Jessi Hooks</div>
+    <br>
+    <br>
+    <div class="aboutcancer">
+        <fieldset>
+
+            <legend id="heading1">About Cancer</legend>
+            <p class="demo-content">Cancer is when abnormal cells divide in an uncontrolled way. Some cancers may eventually spread into other tissues. Cancer can start almost anywhere in the human body, which is made up of trillions of cells. Normally, human cells grow and multiply to form new cells as the body needs them. When cells grow old or become damaged, they die, and new cells take their place. Sometimes this orderly process breaks down, and abnormal or damaged cells grow and multiply when they shouldn't. These cells mayform tumors, which are lumps of tissue. <br> 
+                
+                -Cancer is a leading cause of death worldwide, accounting for nearly 10 million deaths in 2020, or nearly one in six deaths. 
+            
+                Each year, approximately 400 000 children develop cancer. The most common cancers vary between countries. By 2040, the global burden is expected to grow to 27.5 million new cancer cases and 16.3 million cancer deaths simply due to the growth and aging of the population.   
+                
+                </p>
+            </fieldset>
+            </div>
+            <div class="backen">
+                <img src="about_cancer.jpg" alt="">
+            </div>
+            <br><br>
+            <div class="head2">
+                <h1 href="" >Types of Cancer and its Treatment</h1>
+                <div class="t1">
+                    <h2>Breast Cancer</h2>
+                    <p>Skin cancer is the most frequent cancer in women in the United <br> States, followed by  breast cancer. However, from 2003 to 2008, <br> research portrayed that there were around 2,000 occurrences that <br>men can also get it. In women, the milk-producing glands or <br> the ducts that transport milk is where cancer typically develops.</p>
+                    <img src="breast_p.png" alt="" class="ty1">
+                </div>
+                <div class="t2">
+                    <h2>Lungs Cancer</h2>
+                    <p>The most lethal cancer in the US is lung and bronchial cancer. <br> It most frequently affects people between the ages of 55 to 65, <br> which is mostly brought on by smoking and tobacco products.</p>
+                    <img src="lungs_p.png" alt="" class="ty2">
+                </div>
+                <div class="t3">
+                    <h2>Colon Cancer</h2>
+                    <p>According to the National Cancer Institute, rectal cancer develops <br> in the last few inches of the large intestine next to the anus. On <br> the other hand, colon cancer develops in the tissues of the colon. <br> Screening is advised to discover polyps before either of them <br> develops into cancer.</p>
+                    <img src="colon_p.png" alt="" class="ty3">
+                </div>
+                <div class="t4">
+                    <h2>Pancreatic Cancer</h2>
+                    <p>The tissues of the pancreas, which help regulate digestion and <br> metabolism, are where pancreatic cancer first appears. It frequently <br> progresses covertly and fast, making detection and early <br> management challenging.</p>
+                    <img src="pancreatic_p.png" alt="" class="ty4">
+                </div>
+                <div class="t5">
+                    <h2>Prostate Cancer</h2>
+                    <p>According to the NCI, this malignancy is the second greatest <br> cause of cancer mortality in men after lung and bronchial cancer. <br> The prostate gland, which creates the seminal fluid used to <br> transport sperm, is where prostate cancer typically begins to <br> grow slowly.</p>
+                    <img src="prostate_p.png" alt="" class="ty5">
+                </div>
+                <div class="t6">
+                    <h2>Ovarian Cancer</h2>
+                    <p>According to the NCI, ovarian cancer was the fourth leading cause <br> of cancer-related deaths in women. According to the Mayo Clinic, <br> ovarian cancer is easier to treat but harder to detect in its early <br> stages. Early signs include pelvic pain, the need to urinate, and <br> abdominal discomfort.</p>
+                    <img src="ovar_p.png" alt="" class="ty6">
+                </div>
+            </div>
+            <br><br>
+            <div class="head3">
+                <h1 id="heading3.2">Treatments</h1>
+                    <p>There are several treatment options available for lung cancer, depending on the stage and type of cancer. Common approaches include surgery, radiation therapy, chemotherapy, targeted therapy, and immunotherapy. Surgery involves removing the tumor and surrounding tissues, while radiation therapy uses high-energy X-rays to destroy cancer cells. Chemotherapy uses drugs to kill cancer cells throughout the body. Targeted therapy focuses on specific genetic changes in cancer cells, while immunotherapy helps stimulate the body's immune system to fight cancer. Treatment plans are often personalized to the individual's needs and may involve a combination of these approaches.</p><br><br><br><br><br><br><br><br>
+                    <h1 id="heading3.4">Treatments</h1>
+                        <p>Colon cancer treatment typically involves a combination of surgery, chemotherapy, and targeted therapy. Surgery is the primary approach and involves removing the tumor along with surrounding tissues. In cases where the cancer has spread, chemotherapy is used to kill cancer cells throughout the body. Targeted therapy uses drugs that specifically target cancer cells, blocking their growth and spread. Additionally, radiation therapy may be employed to destroy cancer cells or relieve symptoms. Treatment plans are individualized based on the stage of cancer, overall health of the patient, and other factors, with the aim of controlling or eliminating the disease and improving the patient's quality of life.</p><br><br><br><br><br><br><br><br><br>
+                        <h1 id="heading3.5">Treatments</h1>
+                            <p>Pancreatic cancer treatments typically depend on the stage of the disease. In early stages, surgery may be an option to remove the tumor. Chemotherapy is commonly used before and after surgery to shrink the tumor and kill any remaining cancer cells. Radiation therapy may be used alongside chemotherapy to target the tumor and reduce the risk of recurrence. For advanced stages or in cases where surgery is not possible, targeted therapies and immunotherapy may be employed to block specific cancer cell growth pathways or enhance the body's immune response against the tumor. Clinical trials also offer potential innovative treatments for pancreatic cancer.</p><br><br><br><br><br><br><br><br>
+                            <h1 id="heading3.6">Treatments</h1>
+                                <p>Treatment options for prostate cancer depend on the stage and aggressiveness of the disease. In the early stages, active surveillance may be recommended, with regular monitoring of PSA levels and biopsies. Localized prostate cancer can be treated with surgery (prostatectomy), radiation therapy (external beam or brachytherapy), or a combination of both. Advanced prostate cancer may require hormone therapy to suppress the production of testosterone, which fuels the growth of cancer cells. Additional options include chemotherapy, immunotherapy, and targeted therapy, which aim to destroy cancer cells or slow their growth. Treatment decisions should be made in consultation with a healthcare professional based on individual circumstances.</p><br><br><br><br><br><br><br>
+                                <h1 id="heading3.3">Treatments</h1>
+                                    <p>The treatment options for ovarian cancer typically involve a combination of surgery, chemotherapy, and targeted therapy. Surgery is usually the first step and involves the removal of the affected ovaries and any surrounding tissues or lymph nodes. Chemotherapy is administered either before or after surgery to kill cancer cells that may have spread beyond the ovaries. Targeted therapy, such as PARP inhibitors, may be used in certain cases to block specific pathways involved in cancer growth. Other treatment modalities, such as radiation therapy and immunotherapy, may also be considered based on the individual's specific circumstances.                    </p><br><br><br><br><br><br>
+                <h1 id="heading31">Treatments</h1>
+                <p class="onen">Cancer treatments can vary depending on the type and stage of the disease. Common treatments include surgery to remove tumors, radiation therapy to target and kill cancer cells, chemotherapy to destroy cancer cells throughout the body, and immunotherapy to boost the immune system's ability to fight cancer. Other approaches include targeted therapy that focuses on specific molecular abnormalities in cancer cells, hormone therapy for hormone-related cancers, and stem cell transplantation to replace damaged bone marrow. Treatment plans are often tailored to each individual's condition, and may involve a combination of these approaches. It's important to consult with healthcare professionals to determine the most appropriate treatment for a specific cancer case.</p><br><br><br><br><br><br>
+                
+
+
+                    
+
+
+
+
+            </div>
+            <div class="head4">
+                <h1>Articles</h1>
+
+            </div>
+    </body>
+</html>
